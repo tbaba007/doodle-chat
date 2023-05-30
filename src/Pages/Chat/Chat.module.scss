@@ -52,13 +52,14 @@
     &__newChatContainer{
        
         float: right;
+        ;
         margin-right: 50px;
         margin-bottom: 30px;
 
     }
     &__newChat{
         width: 200px;
-        height: 100px;
+        height: auto;
         padding: 10px;
         background-color: lightyellow;
         margin-top: 20px;
