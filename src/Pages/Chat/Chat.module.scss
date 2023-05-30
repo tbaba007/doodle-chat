@@ -12,6 +12,9 @@
         flex-direction: column;
         gap: 3px;
     }
+    &__chatListContainer{
+        margin-bottom: 30px;
+    }
 
     &__author{
         font-weight: 300;
@@ -50,6 +53,7 @@
        
         float: right;
         margin-right: 50px;
+        margin-bottom: 30px;
 
     }
     &__newChat{
@@ -65,5 +69,14 @@
         :nth-child(2){
             align-self: flex-end;
         }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ChatContainer{
+        &__chatListContainer{
+           margin-left: -70px;
+        }
+     
     }
 }

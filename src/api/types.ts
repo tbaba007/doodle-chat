@@ -3,4 +3,3 @@ export interface FetchProps{
     method:MethodType;
     data:{};
 }
-
